@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+      - name: Check Git Version
+        run: git --version
       - name: Say Hello
         run: echo "Hello I am Venu Gopal"
 

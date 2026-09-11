@@ -1,14 +1,17 @@
- name: Github Action
- on:
- push:
- branches:
- -main
- jobs:
- test:
- runs-on:ubuntu latest
- steps:
- -name: Say Hello
- run: echo "Hello I am venu Gopal"
- -name: Check Repository
- run:echo "Action is Working"
- 
+name: Github Action
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Hello
+        run: echo "Hello I am Venu Gopal"
+
+      - name: Check Repository
+        run: echo "Action is Working"

@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: Checkout Repository
+      - name: Checkout Repository
        uses: actions/checkout@v4
-      -name: Say Hello
+      - name: Say Hello
        run: echo "Hello I am Venu Gopal"
 
       - name: Check Repository

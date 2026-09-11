@@ -11,9 +11,9 @@ jobs:
 
     steps:
       - name: Checkout Repository
-       uses: actions/checkout@v4
+        uses: actions/checkout@v4
       - name: Say Hello
-       run: echo "Hello I am Venu Gopal"
+        run: echo "Hello I am Venu Gopal"
 
       - name: Check Repository
         run: echo "Action is Working"
